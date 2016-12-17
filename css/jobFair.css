@@ -1,0 +1,101 @@
+/* 
+* @Author: pengshuang
+* @Date:   2016-10-11 19:17:58
+* @Last Modified time: 2016-10-11 21:40:01
+*/
+@charset "utf-8";
+.top-banner{
+    width: 100%;
+    min-width: 1000px;
+    height: 554px;
+    background: url(../img/banner-recruit.jpg) no-repeat center center;
+}
+.line{
+    width:1000px;
+    height:5px;
+    background-color: #fd5100;
+    margin:0 auto;
+}
+.jobs-title{
+    text-align: center;
+    width: 210px;
+    height: 60px;
+    font:400 24px/60px "微软雅黑";
+    background-color: #fd5100;
+    color: white;
+    margin: 0 auto 45px;
+}
+.jobs{
+    width: 1000px;
+    margin: 0 auto;
+}
+.jobs ul li{
+    float: left;
+    width: 248px;
+    border-right: 2px solid #fd5100;
+    height: 145px;
+}
+.jobs ul li span{
+    color: #fd5100;
+    font:400 18px/25px "微软雅黑";
+    text-align: center;
+    margin-bottom: 35px;
+    display: block;
+}
+.hire-details{
+    width: 1000px;
+    margin: 0 auto 40px;
+    color: #3e3e3e;
+    padding-top: 45px;
+}
+.hd-l{
+    margin: 0 20px;
+    width: 480px;
+    text-align: center;
+    float: left;
+}
+.hd-l ul li{
+    margin-bottom: 30px;
+}
+.hd-l h3{
+    display: block;
+    margin-bottom: 10px;
+}
+.hd-l span{
+    color: #fd5100;
+    padding: 6px 14px;
+    border: 1px solid #fd5100;
+    line-height: 48px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.hd-l dl{
+    margin-bottom: 17px;
+    text-align: left;
+}
+.hd-l dl dt{
+    font-size: 18px;
+    line-height: 30px;
+}
+.hd-l dl dd{
+    font-size: 14px;
+    line-height: 24px;
+    text-indent: 20px;
+    background: url(../img/ico_d.gif) no-repeat 0 12px;
+}
+.hd-l .send-email{
+    background-color: #fd5100;
+    color: white;
+    font-size: 18px;
+    padding: 0 0 3px 5px;
+}
+.hd-l a{
+    color: #fd5100;
+    font-size: 24px;
+}
+.map{
+    background: url(../img/map.jpg) no-repeat;
+    width: 1000px;
+    height: 310px;
+    margin: 0 auto;
+}

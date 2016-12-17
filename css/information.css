@@ -1,0 +1,44 @@
+/* 
+* @Author: pensshuang
+* @Date:   2016-10-13 22:01:04
+* @Last Modified time: 2016-10-13 22:44:50
+*/
+@charset "utf-8";
+.top-banner{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.announce-list li{
+    width: 1000px;
+    margin-bottom: 1px;
+    font: 400 18px/71px "微软雅黑";
+}
+.announce-list li em{
+    display: block;
+    float: left;
+    width: 81px;
+    height: 71px;
+    background: url(../img/ico_Cer.png) no-repeat #ff8348;
+    margin-right: 25px;
+}
+.announce-list li span{
+    float: right;
+    margin-right: 30px;
+}
+.announce-list li:nth-child(even){
+    background-color: #eee;
+}
+
+.announce-list .media-report li em{
+    text-align: center;
+    font: 400 36px/71px "微软雅黑";
+    background: #ff8348;
+    color: white;
+}
+.announce-list .media-report li i{
+    font-style: normal;
+    font-size: 14px;
+    color: #989898;
+    padding-left: 25px;
+}

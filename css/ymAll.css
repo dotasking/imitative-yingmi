@@ -1,0 +1,534 @@
+/* 
+* @Author: pengshuang
+* @Date:   2016-09-28 20:52:59
+* @Last Modified time: 2016-10-11 14:35:48
+*/
+@charset "utf-8";
+.banner-top{
+    background: url(../img/banner-product.jpg) no-repeat center center;
+    width: 100%;
+    min-width: 1000px;
+    height: 532px;
+}
+.gray-piece{
+    width:100%;
+    min-width: 1000px;
+    height:280px;
+    background-color: #f2f2f2;
+}
+.w{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+}
+.fina,.tech{
+    width:500px;
+    height:100%;
+    float: left;
+}
+.fina-pic,.tech-pic{
+    margin-top:52px;
+    width:69px;
+    height:69px;
+    float: left;
+}
+.fina-pic{
+    background:url(../img/product-adv.png) no-repeat 0 0;
+}
+.tech-pic{
+    background:url(../img/product-adv.png) no-repeat 0 -80px;
+}
+.text{
+    float: right;
+    width:353px;
+    margin-right: 53px;
+}
+.text p{
+    margin-top: 52px;
+    font:500 23px "微软雅黑";
+    color:#fd5100;
+    line-height: 33px;
+}
+.text span{
+    display:block;
+    margin-top: 14px;
+    font:400 14px/20px "微软雅黑";
+    color:#929292;
+}
+
+.product-what{
+    position: relative;
+    text-align: center;
+    width:100%;
+    min-width: 1000px;
+    height:951px;
+    background:url(../img/product-what-bg.jpg) no-repeat center 0;
+}
+
+.product-what h3,.customer-who h3,.q-a h3,.apply h3{
+    font:500 24px "微软雅黑";
+    color:#3f3c3c;
+    padding: 60px 0 20px;
+}
+.product-what s,.customer-who s,.q-a s,.apply s{
+    display:block;
+    width:68px;
+    height:1px;
+    background-color: #929292;
+    margin:0 auto 18px;
+}
+.product-what p,.apply p{
+    display:block;
+    color:#929292;
+    font:400 14px/21px "微软雅黑";
+}
+.product-what ul{
+    margin: 54px auto;
+    width: 910px;
+}
+.product-what ul li{
+    float: left;
+    width: 190px;
+    height: 292px;
+    margin-right: 50px;
+    cursor: pointer;
+    background-color: #f6f6f6;
+    position: relative;
+}
+.product-what ul .last-item{
+    margin-right: 0;
+}
+.service-text{
+    width:190px;
+    height: 50px;
+    font-size: 18px;
+    color: #fd5100;
+    line-height: 50px;
+    text-align: center;
+}
+.service-text2{
+    display:block;
+    width: 190px;
+    text-align: center;
+    font-size: 14px;
+    color: #3e3e3e;
+    margin-bottom: 2px;
+}
+.add-icon{
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    bottom: 22px;
+}
+.in-box{
+    width:953px;
+    height: 237px;
+    margin:0 auto;
+}
+.interface{
+    width: 295px;
+    height: 235px;
+    background-color: #fff;
+    border:1px solid #e8e8e8;
+    float: left;
+    margin-right: 31px;
+    text-align: center;
+}
+.last-item{
+    margin-right: 0!important;
+}
+.i-icon1,.i-icon2,.i-icon3{
+    width: 69px;
+    height: 69px;
+    margin:22px 113px;
+    background: url(../img/ico-sprite.png) no-repeat;
+}
+.i-icon1{
+    background-position: 0 0;
+}
+.i-icon2{
+    background-position: 0 -80px;
+}
+.i-icon3{
+    background-position: 0 -160px;
+}
+.interface span{
+    font-size: 15px;
+}
+.interface p{
+    padding:0 10px;
+}
+.detail-item{
+    position: absolute;
+    top: 50px;
+    left:100%;
+    width: 100%;
+    min-width: 1000px;
+    height: 465px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    display: none;
+}
+.item-box{
+    position: relative;
+    max-width: 1325px;
+    min-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.item-box img{
+    width: 55%;
+    height: 100%;
+    float: left;
+}
+.detail-text{
+    padding: 46px;
+    max-width: 595.5px;
+}
+.detail-text span{
+    display: block;
+    font-size: 24px;
+    color:#3F3C3C;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.detail-text p{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+    padding-left:85px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.detail-text p span{
+    float: left;
+    font-size: 16px;
+    color: #fd5100;
+    margin:0 0 0 -85px;
+} 
+.detail-text .close-icon{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    background: url(../img/ico-sprite.png) no-repeat 0 -380px;
+    top: 20px;
+    right: 20px;
+}
+.close-icon:hover{
+    cursor: pointer;
+    background-color: #efefef;
+}
+.detail-text ul{
+    margin: 0;
+    width:400px;
+}
+.detail-text ul li{
+    margin:0;
+    background-color: transparent;
+    float: left;
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    color: #000;
+    cursor: pointer;
+}
+.detail-text ul li:hover{
+    color:#fd5100;
+}
+.current-li{
+    background-color: #fd5100!important;
+    color: #fff!important;
+}
+.detail-text .li-div p{
+    font-size: 16px;
+    color: #3e3e3e;
+    line-height: 30px;
+    padding: 25px 14px 14px;
+}
+.detail-text .li-div div{
+    display:none;
+}
+
+.detail-text .li-div span{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fd5100;
+    padding:0 0 0 15px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.customer-who{
+    width: 100%;
+    min-width: 1000px;
+    height: 559px;
+    background-color: #f2f2f2;
+    text-align: center;
+    position: relative;
+}
+.cus-intro{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+.cus-intro ul li{
+    float: left;
+    width: 395px;
+    height: 395px;
+    margin: 2px;
+    cursor: pointer;
+    position: relative;
+}
+.cus-intro ul li.small-img{
+    width: 195px;
+    height: 195px;
+}
+.customer-who .cus-detail{
+    top:150px;
+    left:100%;
+    height: 410px;
+    background-color: #fff;
+}
+.cus-detail h4{
+    color: #fd5100;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+}
+.cus-detail p{
+    padding-left: 42px;
+}
+.cus-intro ul li span{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.q-a{
+    width: 100%;
+    min-width: 1000px;
+    height: 563px;
+    background: url(../img/qa-bg.jpg) no-repeat center 0;
+    text-align: center;
+}
+.q-a h3{
+    color: #fd5100;
+}
+.q-a ul{
+    width:1000px;
+    margin: 0 auto;
+}
+.q-a ul li{
+    margin-bottom: 10px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+.que-box{
+    border-bottom: 1px solid #f2f2f2;
+    width: 100%;
+}
+.que-icon,.ans-icon{
+    position: relative;
+    float: left;
+    width: 76px;
+    height: 50px;
+    border-right: 1px solid #f2f2f2;
+}
+.que-icon i,.ans-icon i{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    margin-top: -12px;
+    margin-left: -24px;
+    display:block;
+    width: 24px;
+    height: 24px;
+}
+.que-icon i{
+    background: url(../img/ico-sprite.png) no-repeat 0 -240px;
+}
+.ans-icon i{
+    background: url(../img/ico-sprite.png) no-repeat 0 -270px;
+}
+.que-box p,.ans-box p{
+    padding: 16px 78px;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 11px;
+    
+}
+.que-box p{
+    color: #3e3e3e;
+}
+.ans-box p{
+    color: #929292;
+}
+
+.apply{
+    width: 100%;
+    min-width: 1000px;
+    height: 736px;
+    background: url(../img/apply-form-bg.jpg) no-repeat center 0;
+    position: relative;
+    text-align: center;
+}
+.apply img:first-child,.apply img:last-child{
+    position: absolute;
+    bottom: 0;
+}
+.apply img:first-child{
+    left: 0;
+}
+.apply img:last-child{
+    right: 0;
+}
+.apply>span{
+    color: #fd5100;
+    font-size: 19px;
+    margin-bottom: 10px;
+    display: block;
+}
+.apply form>ul{
+    width: 952px;
+    margin: 55px auto 0;
+}
+.apply form>ul>li{
+    float: left;
+    width: 459px;
+    height: 62px;
+    border: 1px solid #e5e5e5;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    position: relative;
+}
+.apply .ipt-title{
+    float: left;
+    width: 65px;
+    height: 62px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 62px;
+    border-right: 1px solid #e5e5e5;
+    padding: 0 23px;
+}
+.apply div>input,.ipt-title+input{
+    width:347px;
+    border: none;
+    height:50px;
+    font-size: 16px;
+    margin-top: 6px;
+    text-indent: 0.5em;
+}
+.apply input:focus{
+    outline: none;
+}
+.diy-sel input{
+    background-color: #fff;
+    width:310px;
+    float: left;
+}
+.re-tanc{
+    border-top: 10px solid #e5e5e5;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    float: right;
+    margin-right: 9px;
+    margin-top: -28px;
+}
+.sel{
+    position: relative;
+}
+.options{
+    width: 347px;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    position: absolute;
+    top: 62px;
+    left: 111px;
+    display: none;
+    z-index: 1;
+}
+.options li{
+    background-color: #fff;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: left;
+    text-indent: 0.5em;
+    color: #545454;
+}
+.options li:hover{
+    background-color: #ff9e71;
+    color: white;
+}
+.options li input{
+    width:16px;
+    height: 16px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.apply form button{
+    display: block;
+    width: 469px;
+    height: 61px;
+    margin: 30px auto 30px auto;
+    font-size: 20px;
+    border: 1px solid #fbb696;
+    cursor: pointer;
+    color: #fd5100;
+    background-color: #fff;
+    text-indent: 15px;
+}
+.apply form button:hover{
+    background-color: #fdd3c0;
+}
+.apply button span{
+    padding-left: 49px;
+    position: relative;
+}
+.apply form button em{
+    position: absolute;
+    display: block;
+    background: url(../img/ico-sprite.png) no-repeat 0 -300px;
+    width: 39px;
+    height: 27px;
+    top: 50%;
+    margin-top: -13.5px;
+    left: 50%;
+    margin-left: -67px;
+}
+
+.erro-text{
+    background-color: #fd5100;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    left: 112px;
+    top: -19px;
+    padding: 2px 6px;
+    display: none;
+}
+.erro-text em{
+    border-width: 10px;
+    border-style: solid;
+    display:block;
+    border-color: #fd5100 transparent transparent transparent;
+    position: absolute;
+    top: 16px;
+    left: 8px;
+}
+.apply span #contact-us{
+    color: #929292;
+    font-size: 14px;
+    padding-left: 22px;
+    background: url(../img/ico-sprite.png) no-repeat 0 -335px;
+}
+.phone-num{
+    background-position: 0 -352px!important;
+}

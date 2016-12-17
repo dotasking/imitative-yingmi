@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+*{margin:0;padding:0;font-family: "微软雅黑";}
+a{
+    color:#3e3e3e;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+
+.header{
+    width:1000px;
+    height: 96px;
+    margin:0 auto;
+    position: relative;
+}
+
+.logo{
+    padding-top:29px;
+}
+
+.ewm-ios,.ewm-android{
+    position: absolute;
+    top:35px;
+    width:90px;
+    height:90px;
+    border:7px solid #FD5100;
+    z-index: 1;;
+}
+
+.ewm-ios{
+    right:112px;
+}
+.ewm-android{
+    right:0;
+}
+.ewm-ios-title,.ewm-android-title{
+    position: absolute;
+    top:141px;
+    color:white;
+    font-size: 14px;
+}
+.ewm-android-title{
+    right:24px;
+}
+.ewm-ios-title{
+    right:152px;
+}
+
+.nav{
+    width:100%;
+    min-width: 1000px;
+    height:70px;
+    background-color: #FD5100;
+}
+.nav ul{
+    width:998px;
+    margin:0 auto;
+}
+.nav ul a{
+    float: left;
+    color:white;
+    display: block;
+    height:70px;
+    padding:0 15px;
+    font:400 18px/70px "微软雅黑";
+}
+.nav ul li a:hover,.current{
+    background-color: #ff8348;;
+}
+.sub-nav-hover{
+    position: relative;
+}
+.nav .sub-nav{
+    display:none;
+    position: absolute;
+    top:70px;
+    left:66px;
+    width:120px;
+    background-color: #FD5100;
+    z-index: 2;
+}
+.nav .sub-nav-hover .sub-nav li a{
+    width:120px;
+    height:45px;
+    padding:0;
+    font-size: 16px;
+    line-height: 45px;
+    text-indent: 1em;
+}
+
+
+.footer-pic{
+    width:1000px;
+    margin:0 auto;
+}
+.footer-pic ul li{
+    float: left;
+    margin-right: 10px;
+    margin-top:20px;
+}
+
+.footer-contact{
+    width:460px;
+    margin:0 auto;
+}
+.footer-contact .about-us li{
+    float: left;
+    font-size: 12px;
+    color:#3e3e3e;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.footer-text p{
+    color:#3e3e3e;
+    font-size: 14px;
+    margin-top:10px;
+    text-align: center;
+}
+.footer-text p a:hover{
+    color:#d40000;
+}
